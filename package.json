@@ -1,5 +1,5 @@
 {
-  "name": "FLABA",
+  "name": "flaba",
   "version": "0.0.1",
   "description": "Franchini-Leoni Api for Balneability App",
   "main": "index.js",
@@ -10,10 +10,10 @@
   "keywords": [
     "flaba",
     "balbeability",
-    "RESTful-api",
+    "RESTful-api"
   ],
   "private": true,  
-  "license": "???",
+  "license": "UNLICENSED",
   "dependencies": {
     "express": "^4.12.4",
     "hapi": "^8.6.1",
