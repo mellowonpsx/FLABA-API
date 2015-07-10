@@ -84,7 +84,7 @@ server.start(function () {
 
 server.route({
     method: ['POST'],
-    path: '/login/',
+    path: '/login',
     config: { auth: false },
     handler: function (request, reply) {
         var username = request.payload.username;
@@ -128,6 +128,19 @@ server.route({
     }
 });
 
+server.route({
+    method: ['GET'],
+    path: '/ping',
+    config: { auth: false },
+    handler: function (request, reply) {
+        return reply({
+            success: true,
+            data: {
+                message: 'this is a ping api'
+            }
+        });
+    }
+});
 // auth route
 
 server.route({
