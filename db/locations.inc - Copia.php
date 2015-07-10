@@ -1,0 +1,2 @@
+{"id":"1","comune":"Iseo","nome":"Montecolo","provincia":"BS","classificazione":{"codice":"3","nominale":"eccellente"},"servizi":{"camping":true,"toilet":true,"handicap":false},"_id":"HpOTYZudLORG0SRZ"}
+{"id":"2","comune":"Iseo","nome":"Araba Fenice","provincia":"BS","classificazione":{"codice":"2","nominale":"buona"},"servizi":{"camping":true,"toilet":true,"handicap":true},"_id":"jX5Qp2AYwiTrcIQV"}

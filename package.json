@@ -1,35 +1,22 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "name": "FLABA",
+  "version": "0.0.1",
+  "description": "Franchini-Leoni Api for Balneability App",
+  "main": "index.js",
+  "author": "Franchini A., Leoni S.",
+  "scripts": {
+    "start": "node index.js"
+  },
   "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
+    "flaba",
+    "balbeability",
+    "RESTful-api",
   ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
-  },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
-
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-
+  "private": true,  
+  "license": "???",
   "dependencies": {
-    "express": "~3.4.4"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
-
-  "private": true,
-  "main": "server.js"
+    "express": "^4.12.4",
+    "hapi": "^8.6.1",
+    "nedb": "^1.1.2"
+  }
 }
