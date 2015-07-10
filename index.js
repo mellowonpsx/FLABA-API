@@ -11,11 +11,13 @@ db.locations = new Datastore({ filename: './db/locations.inc.php', autoload: tru
 //var servizi = {servizi: [{camping: true}, {toilet: true}, {handicap: false}]};
 
 var server = new Hapi.Server();
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+//var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+//var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+var server_ip_address = 'flabaweb-mellowonpsx.rhcloud.com';
+var server_port = 8080;
 server.connection({
     address: server_ip_address,
-    port: server_port,
+    port: 8080,
     routes: {cors: true}
 });
 
