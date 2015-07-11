@@ -14,7 +14,21 @@ var server = new Hapi.Server();
 //var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 //var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
-var server_port = 8080;
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+
+//force https if not in local mode:
+if(server_ip_address !== 'localhost')
+{
+    server.ext('onRequest', function (request, reply) {
+        if (request.headers['x-forwarded-proto'] === 'http') {
+            return reply()
+                .redirect('https://' + request.headers.host + request.url.path)
+                .code(301);
+        }
+        return reply.continue();
+    });
+}
+
 server.connection({
     address: server_ip_address,
     port: server_port,
@@ -78,6 +92,7 @@ server.start(function () {
     //db.locations.insert({id: '2', comune: 'Iseo', nome: 'Araba Fenice', provincia: 'BS', classificazione: {codice: '2', nominale: 'buona'}, servizi: {camping: true, toilet: true, handicap: true}});
 
     console.log('Server running at:', server.info.uri);
+    console.log(server.info);
 });
 
 // unauthenticated route: login route
