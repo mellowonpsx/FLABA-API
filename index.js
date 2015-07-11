@@ -17,7 +17,7 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 //force https if not in local mode:
-if(server_ip_address !== 'localhost')
+/*if(server_ip_address !== 'localhost')
 {
     server.ext('onRequest', function (request, reply) {
         if (request.headers['x-forwarded-proto'] === 'http') {
@@ -27,7 +27,7 @@ if(server_ip_address !== 'localhost')
         }
         return reply.continue();
     });
-}
+}*/
 
 server.connection({
     address: server_ip_address,
