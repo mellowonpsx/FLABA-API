@@ -1,22 +1,23 @@
 {
   "name": "flaba",
   "version": "0.0.1",
-  "description": "Franchini-Leoni Api for Balneability App",
+  "description": "Franchini-Leoni App Balneabilità più API",
   "main": "index.js",
   "author": "Franchini A., Leoni S.",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
-    "flaba",
-    "balbeability",
-    "RESTful-api"
+    "bathing",
+    "api",
+    "webapp"
   ],
-  "private": true,  
+  "private": true,
   "license": "UNLICENSED",
   "dependencies": {
     "express": "^4.12.4",
     "hapi": "^8.6.1",
+    "joi": "^6.5.0",
     "nedb": "^1.1.2"
   }
 }

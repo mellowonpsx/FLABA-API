@@ -1,5 +1,6 @@
 'use strict';
 var Hapi = require('hapi');
+var Joi = require('joi');
 
 var Datastore = require('nedb');
 var db = {}; //new Datastore({ filename: 'db/db.inc.php' });
@@ -205,9 +206,16 @@ server.route({
 server.route({
     method: ['PUT'],
     path: '/locations/{id}/',
-    config: { auth: 'basic' },
+    config: { 
+        auth: 'basic',
+        validate: {
+            params: {
+                id: Joi.number().integer()
+            }
+        }
+    },
     handler: function (request, reply) {
-        var id = encodeURIComponent(request.params.id);
+        var id = parseInt(encodeURIComponent(request.params.id));
         db.locations.update({id: id}, { $set: request.payload.updateValue}, function (err, numReplaced) {
 
             if(err) {
