@@ -1,0 +1,621 @@
+{
+    "id": {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "id",
+            "EN": "id",
+            "DE": "-"
+        },
+        "valore": "IT007010054004"
+    },
+    "comune": {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "comune",
+            "EN": "town",
+            "DE": "-"
+        },
+        "valore": "Iseo"
+    },
+    "localita": {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "localit&agrave;",
+            "EN": "location",
+            "DE": "-"
+        },
+        "valore": "Montecolo"
+    },
+    "provincia": {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "provincia",
+            "EN": "province",
+            "DE": "-"
+        },
+        "valore": "BS"
+    },
+    "coordinate":
+    {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "coordinate",
+            "EN": "coordinate",
+            "DE": "-"
+        },
+        "latitudine": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "latitudine",
+                "EN": "latitude",
+                "DE": "-"
+            },
+            "valore": 45.6521
+        },
+        "longitudine":  {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "longitudine",
+                "EN": "longitude",
+                "DE": "-"
+            },
+            "valore": 9.9598
+        }
+    },
+    "qualita_acque":
+    {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "qualit&agrave; delle acque",
+            "EN": "water quality",
+            "DE": "-"
+        },
+        "stelle": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "stelle",
+                "EN": "stars",
+                "DE": "-"
+            },
+            "valore": "3"
+        },
+        "classificazione":  {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "classificazione",
+                "EN": "classification",
+                "DE": "-"
+            },
+            "valore":  {
+                "default": "IT",
+                "IT": "Eccellente",
+                "EN": "Excellent",
+                "DE": "-"
+            }
+        }
+    },
+    "descrizione_area": {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "descrizione area",
+            "EN": "area desctiption",
+            "DE": "-"
+        },
+        "accesso_pubblico": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "accesso pubblico",
+                "EN": "pubblic access",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "accessibile a piedi dalla strada",
+                    "EN": "pedestrian access along street",
+                    "DE": "-"
+                }
+            }
+        },
+        "handicap": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "handicap",
+                "EN": "handicap",
+                "DE": "-"
+            },
+            "servizio_attivo": false,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "non ha particolari attrezzature",
+                    "EN": "no special facilities",
+                    "DE": "-"
+                }
+            }
+        },
+        "parcheggio": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "parcheggio",
+                "EN": "parking",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "servizi_igienici": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "servizi igienici",
+                "EN": "toilette",
+                "DE": "-"
+            },
+            "servizio_attivo": false,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "area_pubblica": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "area pubblica",
+                "EN": "public area",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "SPIAGGIA LIBERA: Via Giovanni XXIII, fraz. Pilzone",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "area_verde": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "area verde",
+                "EN": "park",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "area_privata": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "area privata",
+                "EN": "private area",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "area_pic_nic": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "area pic-nic",
+                "EN": "pic-nic area",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "area_giochi": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "area giochi",
+                "EN": "playground area",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "bar_ristorante": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "bar - ristorante",
+                "EN": "bar - restaurant",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "attracco_barche": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "attracco barche",
+                "EN": "mooring",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "NAUTICA PEZZOTTI: Via Papa Giovanni XXIII 24, Iseo (BS), Tel. (+39) 030 98 05 31",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "piste_ciclopedonali": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "piste ciclopedonali",
+                "EN": "pedestrian and cycling paths",
+                "DE": "-"
+            },
+            "servizio_attivo": false,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": "-",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "strutture_sportive": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "strutture sportive",
+                "EN": "sports facilities",
+                "DE": "-"
+            },
+            "servizio_attivo": true,
+            "descrizione": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "desctrizione",
+                    "EN": "description",
+                    "DE": "-"
+                },
+                "valore": {
+                    "default": "IT",
+                    "IT": " Hotel Araba Fenice",
+                    "EN": "-",
+                    "DE": "-"
+                }
+            }
+        },
+        "sport_praticabili": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "sport praticabili",
+                "EN": "available sports",
+                "DE": "-"
+            },
+            "lista": [{
+                "default": "IT",
+                "IT": "immersioni subacquee",
+                "EN": "-",
+                "DE": "-"
+            },{
+                "default": "IT",
+                "IT": "windsurf",
+                "EN": "-",
+                "DE": "-"
+            },{
+                "default": "IT",
+                "IT": "wakeboard",
+                "EN": "-",
+                "DE": "-"
+            },{
+                "default": "IT",
+                "IT": "trekking",
+                "EN": "-",
+                "DE": "-"
+            },{
+                "default": "IT",
+                "IT": "equitazione",
+                "EN": "-",
+                "DE": "-"
+            }]
+        }
+    },
+    "informazioni_utili": {
+        "nome-campo": {
+            "default": "IT",
+            "IT": "informazioni utili",
+            "EN": "useful information",
+            "DE": "-"
+        },
+        "guardia_medica": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "guardia medica",
+                "EN": "-",
+                "DE": "-"
+            },
+            "indirizzo": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "indirizzo",
+                    "EN": "address",
+                    "DE": "-"
+                },
+                "valore": "Via Giardini Giuseppe Garibaldi 2, Iseo (BS)"
+            },
+            "telefono": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "telefono",
+                    "EN": "telephone",
+                    "DE": "-"
+                },
+                "valore": "(+39) 030 83 77 143"
+            }
+        },
+        "pronto_soccorso": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "pronto soccorso",
+                "EN": "-",
+                "DE": "-"
+            },
+            "nome": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "nome",
+                    "EN": "-",
+                    "DE": "-"
+                },
+                "valore": "AZIENDA OSPEDALIERA MELLINO MELLINI"
+            },
+            "indirizzo": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "indirizzo",
+                    "EN": "address",
+                    "DE": "-"
+                },
+                "valore": "Via giardini Giuseppe Garibaldi 7, Iseo (BS)"
+            },
+            "telefono": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "telefono",
+                    "EN": "telephone",
+                    "DE": "-"
+                },
+                "valore": "(+39) 030 98 871"
+            }
+        },
+        "farmacia": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "farmacia",
+                "EN": "-",
+                "DE": "-"
+            },
+            "nome": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "nome",
+                    "EN": "-",
+                    "DE": "-"
+                },
+                "valore": "FARMACIA COMUNALE"
+            },
+            "indirizzo": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "indirizzo",
+                    "EN": "address",
+                    "DE": "-"
+                },
+                "valore": "Via Roma 84, Iseo (BS)"
+            },
+            "telefono": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "telefono",
+                    "EN": "telephone",
+                    "DE": "-"
+                },
+                "valore": "(+39) 030 98 03 22"
+            }
+        },
+        "polizia_provinciale": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "polizia provinciale",
+                "EN": "-",
+                "DE": "-"
+            },
+            "indirizzo": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "indirizzo",
+                    "EN": "address",
+                    "DE": "-"
+                },
+                "valore": "Via Roma, Iseo (BS)"
+            },
+            "telefono": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "telefono",
+                    "EN": "telephone",
+                    "DE": "-"
+                },
+                "valore": "(+39) 030 98 02 22"
+            }
+        },
+        "carabinieri": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "carabinieri",
+                "EN": "-",
+                "DE": "-"
+            },
+            "indirizzo": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "indirizzo",
+                    "EN": "address",
+                    "DE": "-"
+                },
+                "valore": "Via Roma 53, Iseo (BS)"
+            },
+            "telefono": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "telefono",
+                    "EN": "telephone",
+                    "DE": "-"
+                },
+                "valore": "(+39) 030 98 22 262"
+            }
+        },
+        "polizia_locale": {
+            "nome-campo": {
+                "default": "IT",
+                "IT": "polizia_locale",
+                "EN": "-",
+                "DE": "-"
+            },
+            "indirizzo": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "indirizzo",
+                    "EN": "address",
+                    "DE": "-"
+                },
+                "valore": "Via Mirolte 7, Iseo (BS)"
+            },
+            "telefono": {
+                "nome-campo": {
+                    "default": "IT",
+                    "IT": "telefono",
+                    "EN": "telephone",
+                    "DE": "-"
+                },
+                "valore": "(+39) 030 98 00 93"
+            }
+        }
+    },
+    "_id": "HpOTYZudLORG0SC"
+}

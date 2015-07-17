@@ -1,0 +1,139 @@
+{
+    "qualità_acque":[
+    {
+        "qualita_acque":
+        {
+            "nome_campo": {
+                "default": "IT",
+                "IT": "qualità delle acque",
+                "EN": "water quality",
+                "DE": "-"
+            },
+            "stelle": {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "stelle",
+                    "EN": "stars",
+                    "DE": "-"
+                },
+                "valore": "3"
+            },
+            "classificazione":  {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "classificazione",
+                    "EN": "classification",
+                    "DE": "-"
+                },
+                "valore":  {
+                    "default": "IT",
+                    "IT": "eccellente",
+                    "EN": "excellent",
+                    "DE": "-"
+                }
+            }
+        }
+    },
+    {
+        "qualita_acque":
+        {
+            "nome_campo": {
+                "default": "IT",
+                "IT": "qualità delle acque",
+                "EN": "water quality",
+                "DE": "-"
+            },
+            "stelle": {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "stelle",
+                    "EN": "stars",
+                    "DE": "-"
+                },
+                "valore": "2"
+            },
+            "classificazione":  {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "classificazione",
+                    "EN": "classification",
+                    "DE": "-"
+                },
+                "valore":  {
+                    "default": "IT",
+                    "IT": "buona",
+                    "EN": "good",
+                    "DE": "-"
+                }
+            }
+        }
+    },
+    {
+        "qualita_acque":
+        {
+            "nome_campo": {
+                "default": "IT",
+                "IT": "qualità delle acque",
+                "EN": "water quality",
+                "DE": "-"
+            },
+            "stelle": {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "stelle",
+                    "EN": "stars",
+                    "DE": "-"
+                },
+                "valore": "1"
+            },
+            "classificazione":  {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "classificazione",
+                    "EN": "classification",
+                    "DE": "-"
+                },
+                "valore":  {
+                    "default": "IT",
+                    "IT": "sufficiente",
+                    "EN": "sufficient",
+                    "DE": "-"
+                }
+            }
+        }
+    },
+    {
+        "qualita_acque":
+        {
+            "nome_campo": {
+                "default": "IT",
+                "IT": "qualità delle acque",
+                "EN": "water quality",
+                "DE": "-"
+            },
+            "stelle": {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "stelle",
+                    "EN": "stars",
+                    "DE": "-"
+                },
+                "valore": "0"
+            },
+            "classificazione":  {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "classificazione",
+                    "EN": "classification",
+                    "DE": "-"
+                },
+                "valore":  {
+                    "default": "IT",
+                    "IT": "scarsa",
+                    "EN": "poor",
+                    "DE": "-"
+                }
+            }
+        }
+    }]
+}
