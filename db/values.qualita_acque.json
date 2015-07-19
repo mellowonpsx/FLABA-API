@@ -1,139 +1,134 @@
-{
-    "qualità_acque":[
+[
     {
-        "qualita_acque":
-        {
+        "qualita_acque": {
             "nome_campo": {
                 "default": "IT",
-                "IT": "qualità delle acque",
-                "EN": "water quality",
-                "DE": "-"
+                "IT": "qualità delle acque di balneazione",
+                "EN": "bathing water quality",
+                "DE": "badegewässerqualität"
             },
             "stelle": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "stelle",
                     "EN": "stars",
-                    "DE": "-"
+                    "DE": "sterne"
                 },
-                "valore": "3"
+                "valore": 3
             },
             "classificazione":  {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "classificazione",
                     "EN": "classification",
-                    "DE": "-"
+                    "DE": "klassifikation"
                 },
                 "valore":  {
                     "default": "IT",
                     "IT": "eccellente",
                     "EN": "excellent",
-                    "DE": "-"
+                    "DE": "ausgezeichnet"
                 }
             }
         }
     },
     {
-        "qualita_acque":
-        {
+        "qualita_acque": {
             "nome_campo": {
                 "default": "IT",
-                "IT": "qualità delle acque",
-                "EN": "water quality",
-                "DE": "-"
+                "IT": "qualità delle acque di balneazione",
+                "EN": "bathing water quality",
+                "DE": "badegewässerqualität"
             },
             "stelle": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "stelle",
                     "EN": "stars",
-                    "DE": "-"
+                    "DE": "sterne"
                 },
-                "valore": "2"
+                "valore": 2
             },
             "classificazione":  {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "classificazione",
                     "EN": "classification",
-                    "DE": "-"
+                    "DE": "klassifikation"
                 },
                 "valore":  {
                     "default": "IT",
                     "IT": "buona",
                     "EN": "good",
-                    "DE": "-"
+                    "DE": "gut"
                 }
             }
         }
     },
     {
-        "qualita_acque":
-        {
+        "qualita_acque": {
             "nome_campo": {
                 "default": "IT",
-                "IT": "qualità delle acque",
-                "EN": "water quality",
-                "DE": "-"
+                "IT": "qualità delle acque di balneazione",
+                "EN": "bathing water quality",
+                "DE": "badegewässerqualität"
             },
             "stelle": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "stelle",
                     "EN": "stars",
-                    "DE": "-"
+                    "DE": "sterne"
                 },
-                "valore": "1"
+                "valore": 1
             },
             "classificazione":  {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "classificazione",
                     "EN": "classification",
-                    "DE": "-"
+                    "DE": "klassifikation"
                 },
                 "valore":  {
                     "default": "IT",
                     "IT": "sufficiente",
                     "EN": "sufficient",
-                    "DE": "-"
+                    "DE": "ausreichend"
                 }
             }
         }
     },
     {
-        "qualita_acque":
-        {
+        "qualita_acque": {
             "nome_campo": {
                 "default": "IT",
-                "IT": "qualità delle acque",
-                "EN": "water quality",
-                "DE": "-"
+                "IT": "qualità delle acque di balneazione",
+                "EN": "bathing water quality",
+                "DE": "badegewässerqualität"
             },
             "stelle": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "stelle",
                     "EN": "stars",
-                    "DE": "-"
+                    "DE": "sterne"
                 },
-                "valore": "0"
+                "valore": 0
             },
             "classificazione":  {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "classificazione",
                     "EN": "classification",
-                    "DE": "-"
+                    "DE": "klassifikation"
                 },
                 "valore":  {
                     "default": "IT",
                     "IT": "scarsa",
                     "EN": "poor",
-                    "DE": "-"
+                    "DE": "mangelhaft"
                 }
             }
         }
-    }]
-}
+    }
+]

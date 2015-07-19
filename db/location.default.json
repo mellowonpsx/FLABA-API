@@ -13,7 +13,7 @@
             "default": "IT",
             "IT": "comune",
             "EN": "town",
-            "DE": "stadt"
+            "DE": "kommune"
         },
         "valore": ""
     },
@@ -22,7 +22,7 @@
             "default": "IT",
             "IT": "località",
             "EN": "location",
-            "DE": "lage"
+            "DE": "örtlichkeit"
         },
         "valore": ""
     },
@@ -41,14 +41,14 @@
             "default": "IT",
             "IT": "coordinate",
             "EN": "coordinate",
-            "DE": "-"
+            "DE": "koordinaten"
         },
         "latitudine": {
             "nome_campo": {
                 "default": "IT",
                 "IT": "latitudine",
                 "EN": "latitude",
-                "DE": "-"
+                "DE": "breite"
             },
             "valore": 0
         },
@@ -57,7 +57,7 @@
                 "default": "IT",
                 "IT": "longitudine",
                 "EN": "longitude",
-                "DE": "-"
+                "DE": "länge"
             },
             "valore": 0
         }
@@ -66,31 +66,31 @@
     {
         "nome_campo": {
             "default": "IT",
-            "IT": "qualità delle acque",
-            "EN": "water quality",
-            "DE": "-"
+            "IT": "qualità delle acque di balneazione",
+            "EN": "bathing water quality",
+            "DE": "badegewässerqualität"
         },
         "stelle": {
             "nome_campo": {
                 "default": "IT",
                 "IT": "stelle",
                 "EN": "stars",
-                "DE": "-"
+                "DE": "sterne"
             },
-            "valore": "3"
+            "valore": 3
         },
         "classificazione":  {
             "nome_campo": {
                 "default": "IT",
                 "IT": "classificazione",
                 "EN": "classification",
-                "DE": "-"
+                "DE": "klassifikation"
             },
             "valore":  {
                 "default": "IT",
                 "IT": "eccellente",
                 "EN": "excellent",
-                "DE": "-"
+                "DE": "ausgezeichnet"
             }
         }
     },
@@ -98,15 +98,15 @@
         "nome_campo": {
             "default": "IT",
             "IT": "descrizione area",
-            "EN": "area desctiption",
-            "DE": "-"
+            "EN": "area description",
+            "DE": "beschreibung fläche"
         },
         "accesso_pubblico": {
             "nome_campo": {
                 "default": "IT",
                 "IT": "accesso pubblico",
                 "EN": "pubblic access",
-                "DE": "-"
+                "DE": "öffentlich zugänglich"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -114,13 +114,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -129,7 +129,7 @@
                 "default": "IT",
                 "IT": "handicap",
                 "EN": "handicap",
-                "DE": "-"
+                "DE": "handikap"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -137,13 +137,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -152,7 +152,7 @@
                 "default": "IT",
                 "IT": "parcheggio",
                 "EN": "parking",
-                "DE": "-"
+                "DE": "parken"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -160,13 +160,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -175,7 +175,7 @@
                 "default": "IT",
                 "IT": "servizi igienici",
                 "EN": "toilette",
-                "DE": "-"
+                "DE": "öffentliche badeanstalt"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -183,13 +183,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -198,7 +198,7 @@
                 "default": "IT",
                 "IT": "area pubblica",
                 "EN": "public area",
-                "DE": "-"
+                "DE": "publikfläche"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -206,13 +206,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -221,7 +221,7 @@
                 "default": "IT",
                 "IT": "area verde",
                 "EN": "park",
-                "DE": "-"
+                "DE": "grünfläche"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -229,13 +229,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -244,7 +244,7 @@
                 "default": "IT",
                 "IT": "area privata",
                 "EN": "private area",
-                "DE": "-"
+                "DE": "privat fläche"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -252,13 +252,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -267,7 +267,7 @@
                 "default": "IT",
                 "IT": "area pic-nic",
                 "EN": "pic-nic area",
-                "DE": "-"
+                "DE": "picknickflächen"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -275,13 +275,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -290,7 +290,7 @@
                 "default": "IT",
                 "IT": "area giochi",
                 "EN": "playground area",
-                "DE": "-"
+                "DE": "spielbereich"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -298,13 +298,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -313,7 +313,7 @@
                 "default": "IT",
                 "IT": "bar - ristorante",
                 "EN": "bar - restaurant",
-                "DE": "-"
+                "DE": "bar - restaurant"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -321,13 +321,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -336,7 +336,7 @@
                 "default": "IT",
                 "IT": "attracco barche",
                 "EN": "mooring",
-                "DE": "-"
+                "DE": "boot anlegen"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -344,13 +344,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -359,7 +359,7 @@
                 "default": "IT",
                 "IT": "piste ciclopedonali",
                 "EN": "pedestrian and cycling paths",
-                "DE": "-"
+                "DE": "fuss und fahrradweg"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -367,13 +367,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -382,7 +382,7 @@
                 "default": "IT",
                 "IT": "strutture sportive",
                 "EN": "sports facilities",
-                "DE": "-"
+                "DE": "sporteinrichtungen"
             },
             "servizio_attivo": true,
             "descrizione": {
@@ -390,13 +390,13 @@
                     "default": "IT",
                     "IT": "desctrizione",
                     "EN": "description",
-                    "DE": "-"
+                    "DE": "beschreibung"
                 },
                 "valore": {
                     "default": "IT",
                     "IT": "",
                     "EN": "",
-                    "DE": "-"
+                    "DE": ""
                 }
             }
         },
@@ -405,13 +405,13 @@
                 "default": "IT",
                 "IT": "sport praticabili",
                 "EN": "available sports",
-                "DE": "-"
+                "DE": "sportmöglichkeiten"
             },
             "lista": [{
                 "default": "IT",
                 "IT": "",
                 "EN": "",
-                "DE": "-"
+                "DE": ""
             }]
         }
     },
@@ -420,21 +420,21 @@
             "default": "IT",
             "IT": "informazioni utili",
             "EN": "useful information",
-            "DE": "-"
+            "DE": "nützliche information"
         },
         "guardia_medica": {
             "nome_campo": {
                 "default": "IT",
                 "IT": "guardia medica",
                 "EN": "medical service",
-                "DE": "-"
+                "DE": "sanitätswache"
             },
             "indirizzo": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "indirizzo",
                     "EN": "address",
-                    "DE": "-"
+                    "DE": "adresse"
                 },
                 "valore": ""
             },
@@ -443,7 +443,7 @@
                     "default": "IT",
                     "IT": "telefono",
                     "EN": "telephone",
-                    "DE": "-"
+                    "DE": "telefon"
                 },
                 "valore": ""
             }
@@ -453,14 +453,14 @@
                 "default": "IT",
                 "IT": "pronto soccorso",
                 "EN": "emergency medical service",
-                "DE": "-"
+                "DE": "erste hilfe"
             },
             "nome": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "nome",
                     "EN": "name",
-                    "DE": "-"
+                    "DE": "name"
                 },
                 "valore": ""
             },
@@ -469,7 +469,7 @@
                     "default": "IT",
                     "IT": "indirizzo",
                     "EN": "address",
-                    "DE": "-"
+                    "DE": "adresse"
                 },
                 "valore": ""
             },
@@ -478,7 +478,7 @@
                     "default": "IT",
                     "IT": "telefono",
                     "EN": "telephone",
-                    "DE": "-"
+                    "DE": ""
                 },
                 "valore": ""
             }
@@ -488,14 +488,14 @@
                 "default": "IT",
                 "IT": "farmacia",
                 "EN": "drugstore",
-                "DE": "-"
+                "DE": "apotheke"
             },
             "nome": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "nome",
                     "EN": "name",
-                    "DE": "-"
+                    "DE": "name"
                 },
                 "valore": ""
             },
@@ -504,7 +504,7 @@
                     "default": "IT",
                     "IT": "indirizzo",
                     "EN": "address",
-                    "DE": "-"
+                    "DE": "adresse"
                 },
                 "valore": ""
             },
@@ -513,7 +513,7 @@
                     "default": "IT",
                     "IT": "telefono",
                     "EN": "telephone",
-                    "DE": "-"
+                    "DE": "telefon"
                 },
                 "valore": ""
             }
@@ -523,14 +523,14 @@
                 "default": "IT",
                 "IT": "polizia provinciale",
                 "EN": "provincial police",
-                "DE": "-"
+                "DE": "provinzial polizei"
             },
             "indirizzo": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "indirizzo",
                     "EN": "address",
-                    "DE": "-"
+                    "DE": "adresse"
                 },
                 "valore": ""
             },
@@ -539,7 +539,7 @@
                     "default": "IT",
                     "IT": "telefono",
                     "EN": "telephone",
-                    "DE": "-"
+                    "DE": "telefon"
                 },
                 "valore": ""
             }
@@ -548,15 +548,15 @@
             "nome_campo": {
                 "default": "IT",
                 "IT": "carabinieri",
-                "EN": "police",
-                "DE": "-"
+                "EN": "carabiniers",
+                "DE": "karabiniers"
             },
             "indirizzo": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "indirizzo",
                     "EN": "address",
-                    "DE": "-"
+                    "DE": "adresse"
                 },
                 "valore": ""
             },
@@ -565,7 +565,7 @@
                     "default": "IT",
                     "IT": "telefono",
                     "EN": "telephone",
-                    "DE": "-"
+                    "DE": "telefon"
                 },
                 "valore": ""
             }
@@ -575,14 +575,14 @@
                 "default": "IT",
                 "IT": "polizia_locale",
                 "EN": "local police",
-                "DE": "-"
+                "DE": "local polizei"
             },
             "indirizzo": {
                 "nome_campo": {
                     "default": "IT",
                     "IT": "indirizzo",
                     "EN": "address",
-                    "DE": "-"
+                    "DE": "adresse"
                 },
                 "valore": ""
             },
@@ -591,11 +591,10 @@
                     "default": "IT",
                     "IT": "telefono",
                     "EN": "telephone",
-                    "DE": "-"
+                    "DE": "telefon"
                 },
                 "valore": ""
             }
         }
-    },
-    "_id": ""
+    }
 }
