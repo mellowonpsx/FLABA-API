@@ -7,6 +7,9 @@ var locationSchema = require('./db/location.schema');
 
 var Datastore = require('nedb');
 var db = {}; //new Datastore({ filename: 'db/db.inc.php' });
+var fs = require('fs');
+var multiparty = require('multiparty');
+var publicFolder = './resource/';
 
 db.users = new Datastore({ filename: './db/users.json', autoload: true });
 db.strings = new Datastore({ filename: './db/strings.json', autoload: true });
@@ -147,6 +150,42 @@ server.route({
                         locations: locations
                     }
                 }).header('last-modified', lastModified);
+            }
+        });
+    }
+});
+
+server.route({
+    method: ['GET'],
+    path: '/no-auth/getfile/{filename}',
+    config: { auth: false },
+    handler: function (request, reply) {
+        var filename = encodeURIComponent(request.params.filename);
+        if(filename.indexOf('..') > -1 || filename.indexOf('/') > -1 || filename.indexOf('\\') > -1 || filename.indexOf('~') > -1) {
+            console.log(filename);
+            return reply({
+                success: false,
+                error: {
+                        code: '404',
+                        message: 'don\'t play with file request'
+                }
+            });
+        }
+        var filename = publicFolder+filename;
+        fs.stat(filename, function(err, stats){
+            if(err) {
+                console.error(err);
+                return reply({
+                    success: false,
+                    error: {
+                            code: '404',
+                            message: 'cannot serve the requested file'
+                    }
+                });
+            }
+            else {
+                var fileLastModified = stats.mtime.toUTCString();
+                return reply.file(filename).header('last-modified', fileLastModified);
             }
         });
     }
@@ -391,6 +430,59 @@ server.route({
                     data: {
                         numRemoved: numRemoved
                     }
+                });
+            }
+        });
+    }
+});
+
+server.route({
+    method: 'PUT',
+    path: '/putfile',
+    config: {
+        auth: 'basic',
+        payload:{
+              maxBytes: 11059200,
+              output: 'stream',
+              parse: false
+        }   
+    },
+    handler: function(req,reply) {
+        var form = new multiparty.Form();
+        form.parse(req.payload, function(err, fields, files) {
+            if(err) {
+                console.error(err);
+                return reply({
+                    success: false,
+                    error: {
+                            code: '503',
+                            message: 'internal server error (upload)'
+                    }
+                });
+            }  
+            else {
+                fs.readFile(files.file[0].path, function(err, data) {
+                    var filename = Date.parse(new Date().toUTCString()) +'-'+ files.file[0].originalFilename;
+                    fs.writeFile(publicFolder + filename, data, function(err) {
+                        if (err) {
+                            console.error(err);
+                            return reply({
+                                success: false,
+                                error: {
+                                        code: '503',
+                                        message: 'internal server error (file)'
+                                }
+                            });
+                        }
+                        else {
+                            return reply({
+                                success: true,
+                                data: {
+                                    filename: filename
+                                }
+                            });
+                        }
+                    });
                 });
             }
         });

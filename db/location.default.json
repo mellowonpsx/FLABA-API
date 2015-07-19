@@ -596,5 +596,14 @@
                 "valore": ""
             }
         }
+    },
+    "immagini": {
+        "nome_campo": {
+            "default": "IT",
+            "IT": "immagini",
+            "EN": "images",
+            "DE": "bilder"
+        },
+        "lista": []
     }
 }

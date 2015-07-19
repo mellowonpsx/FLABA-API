@@ -617,5 +617,16 @@
             }
         }
     },
+    "immagini": {
+        "nome_campo": {
+            "default": "IT",
+            "IT": "immagini",
+            "EN": "images",
+            "DE": "bilder"
+        },
+        "lista": [{
+            "filename": "view-on-lago-iseo-and-mountains.jpg"
+        }]
+    },
     "_id": "HpOTYZudLORG0SC"
 }
