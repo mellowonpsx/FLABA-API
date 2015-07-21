@@ -130,5 +130,38 @@
                 }
             }
         }
+    },
+    {
+        "qualita_acque": {
+            "nome_campo": {
+                "default": "IT",
+                "IT": "qualità delle acque di balneazione",
+                "EN": "bathing water quality",
+                "DE": "badegewässerqualität"
+            },
+            "stelle": {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "stelle",
+                    "EN": "stars",
+                    "DE": "sterne"
+                },
+                "valore": -1
+            },
+            "classificazione":  {
+                "nome_campo": {
+                    "default": "IT",
+                    "IT": "classificazione",
+                    "EN": "classification",
+                    "DE": "klassifikation"
+                },
+                "valore":  {
+                    "default": "IT",
+                    "IT": "divieto di balneazione",
+                    "EN": "bathing prohibited",
+                    "DE": "baden verboten"
+                }
+            }
+        }
     }
 ]
