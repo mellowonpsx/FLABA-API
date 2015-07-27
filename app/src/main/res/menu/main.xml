@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/update_wifi"
+            android:title="@string/aggiornamento_solo_wifi" />
+    </group>
+    <item
+        android:id="@+id/force_update"
+        android:title="@string/aggiornamento_prossimo_riavvio"/>
+    <item android:id="@+id/language"
+        android:title="@string/selezione_lingua">
+        <menu>
+            <group android:id="@+id/gr_lang"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/default_lang"
+                    android:title="Default"/>
+                    <!--android:checkable="true"/>-->
+                <item
+                    android:id="@+id/italian"
+                    android:title="IT"/>
+                    <!--android:checkable="true"/>-->
+                <item
+                    android:id="@+id/english"
+                    android:title="EN"/>
+                    <!--android:checkable="true"/>-->
+                <item
+                    android:id="@+id/deutch"
+                    android:title="DE"/>
+                    <!--android:checkable="true"/>-->
+            </group>
+        </menu>
+    </item>
+</menu>

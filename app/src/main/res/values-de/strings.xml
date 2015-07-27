@@ -1,0 +1,19 @@
+<resources>
+    <string name="testo_notifica_corto">(DE)Dati scaricati correttamente, si prega di riavviare per aggiornare i dati dell\'applicazione.</string>
+    <string name="testo_notifica">(DE)Dati scaricati correttamente, si consiglia di riavviare l\'applicazione aggiornare i dati. È importante mantenere l\'app sempre aggiornata, per conoscere l\'effettivo stato di balneabilità delle località. In caso contrario i dati aggiornati verranno mostrati al prossimo avvio.</string>
+    <string name="riavvia">(DE)Riavvia</string>
+    <string name="dopo">(DE)Dopo</string>
+    <string name="drawer_open">(DE)Menu opened</string>
+    <string name="drawer_close">(DE)Menu closed</string>
+    <string name="action_settings">(DE)Settings</string>
+    <string name="title_activity_clear_notification">(DE)ClearNotification</string>
+    <string name="aggiornamento_solo_wifi">(DE)Aggiornamento solo via Wifi</string>
+    <string name="aggiornamento_prossimo_riavvio">(DE)Aggiornamento al prossimo riavvio</string>
+    <string name="selezione_lingua">(DE)Seleziona lingua</string>
+    <string name="cambio_lingua">(DE)Riavvia l\'applicazione per cambiare lingua</string>
+    <string name="mappa">(DE)Mappa</string>
+    <string name="ricerca">(DE)Ricerca</string>
+    <string name="vicino">(DE)Ricerca per distanza</string>
+    <string name="info">(DE)Informazioni</string>
+    <string name="distanza">Distanza</string>
+</resources>
