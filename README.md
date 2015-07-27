@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # FLABA-APP
+=======
+# FLABA-API
+>>>>>>> origin/master
 F. L. App Balneabilità &amp; API
 # FLABA
 This repo contains the whole "FLABA" project, developed for Mobile Programming lecture.  
